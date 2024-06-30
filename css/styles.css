@@ -83,17 +83,34 @@ main {
     background-color: #b32e2e;
 }
 
-.introduction,
-.impact-statistics,
-.testimonials,
-.how-you-can-help {
+.introduction {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Center content */
+}
+
+.introduction h2 {
+    font-size: 2em;
+    color: #cc3333; /* More reddish color */
+}
+
+.introduction .intro-text {
+    background-color: #f2f2f2; /* Grey box background */
+    border-radius: 10px; /* Rounded edges */
+    padding: 20px;
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.introduction p {
+    font-size: 1.2em; /* Increased font size */
+    margin: 20px; /* Increased margins */
+}
+
+.impact-statistics {
     padding: 50px 20px;
 }
 
-.introduction h2,
-.impact-statistics h2,
-.testimonials h2,
-.how-you-can-help h2 {
+.impact-statistics h2 {
     font-size: 2em;
     color: #cc3333; /* More reddish color */
 }
@@ -122,12 +139,31 @@ main {
     font-size: 1em;
 }
 
+.testimonials {
+    padding: 50px 20px;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    color: #cc3333; /* More reddish color */
+}
+
 .testimonials .testimonial {
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 10px;
-    margin: 10px 0;
-    text-align: left;
+    margin: 20px; /* Increased margin for better spacing */
+    text-align: center; /* Centered text */
+    font-size: 1.1em; /* Increased font size */
+}
+
+.how-you-can-help {
+    padding: 50px 20px;
+}
+
+.how-you-can-help h2 {
+    font-size: 2em;
+    color: #cc3333; /* More reddish color */
 }
 
 .how-you-can-help .help-options {
@@ -177,6 +213,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+main {
+    margin-bottom: 20px; /* Added margin at the bottom */
 }
 
 .fundraisers {
