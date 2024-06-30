@@ -12,7 +12,7 @@ header {
     align-items: center;
     background-color: #cc3333; /* More reddish color */
     color: white;
-    padding: 10px 40px;
+    padding: 10px 20px;
 }
 
 .logo {
@@ -53,8 +53,120 @@ main {
     text-align: center; /* Center content */
 }
 
-h1 {
+.hero {
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero button {
+    background-color: #cc3333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.hero button:hover {
+    background-color: #b32e2e;
+}
+
+.introduction,
+.impact-statistics,
+.testimonials,
+.how-you-can-help {
+    padding: 50px 20px;
+}
+
+.introduction h2,
+.impact-statistics h2,
+.testimonials h2,
+.how-you-can-help h2 {
+    font-size: 2em;
     color: #cc3333; /* More reddish color */
+}
+
+.impact-statistics .stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.impact-statistics .stat {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.impact-statistics .stat h3 {
+    margin: 0;
+    font-size: 2em;
+    color: #cc3333; /* More reddish color */
+}
+
+.impact-statistics .stat p {
+    margin: 5px 0 0;
+    font-size: 1em;
+}
+
+.testimonials .testimonial {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.how-you-can-help .help-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.how-you-can-help .help-option {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.how-you-can-help .help-option h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #cc3333; /* More reddish color */
+}
+
+.how-you-can-help .help-option p {
+    font-size: 1em;
+}
+
+.how-you-can-help .help-option button {
+    background-color: #cc3333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.how-you-can-help .help-option button:hover {
+    background-color: #b32e2e;
 }
 
 footer {
