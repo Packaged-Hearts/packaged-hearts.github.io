@@ -51,6 +51,7 @@ nav ul li a:active {
 main {
     padding: 20px;
     text-align: center; /* Center content */
+    margin-bottom: 20px; /* Added margin at the bottom */
 }
 
 .hero {
@@ -213,23 +214,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-main {
-    margin-bottom: 20px; /* Added margin at the bottom */
-}
-
-.fundraisers {
-    display: flex;
-    justify-content: space-between;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
-.gfm-embed {
-    flex: 1 1 45%; /* Ensure the widgets are not squashed */
-    min-width: 300px; /* Minimum width to prevent squashing */
-    max-width: 400px; /* Maximum width to keep a good size */
-    margin: 0 10px; /* Add margin between the widgets */
 }
