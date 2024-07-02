@@ -51,7 +51,7 @@ nav ul li a:active {
 main {
     padding: 20px;
     text-align: center; 
-    margin-bottom: 40px; /* Add bottom margin to create space between the form and the footer */
+    margin-bottom: 70px; /* Add bottom margin to create space between the form and the footer */
 }
 
 .volunteer-form {
