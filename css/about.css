@@ -74,7 +74,6 @@ h3 {
     margin-bottom: 20px;
 }
 
-
 ul {
     list-style-type: disc;
     margin: 0 auto;
@@ -98,19 +97,21 @@ footer {
     background-color: #f2f2f2;
     border-radius: 10px;
     padding: 20px;
-    max-width: 500px; /* Expand width for less squished appearance */
+    max-width: 45%; /* Adjust width for symmetry */
     margin: 0 auto 20px auto;
     display: inline-block; /* Allow side-by-side layout */
     vertical-align: top; /* Align boxes at the top */
     margin-right: 20px; /* Add spacing between side-by-side boxes */
 }
 
-.full-width {
-    max-width: 800px;
+.grey-box:last-child {
+    margin-right: 0; /* Remove margin for the last grey box */
 }
 
-.side-by-side {
-    max-width: 500px;
+.full-width {
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 .button {
@@ -122,10 +123,10 @@ footer {
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.2s;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-button:hover {
+.button:hover {
     background-color: #b32e2e;
 }
-
-
