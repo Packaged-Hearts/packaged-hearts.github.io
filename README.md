@@ -1,2 +1,2 @@
 # Website
-This it he official website for Packaged Hearts.
+This is the official website for Packaged Hearts.
