@@ -130,3 +130,17 @@ footer {
 .button:hover {
     background-color: #b32e2e;
 }
+
+/* Instagram Embeds Layout */
+.instagram-embeds {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds spacing between the embeds */
+    flex-wrap: wrap; /* Allows them to wrap on smaller screens */
+}
+
+.instagram-embeds blockquote {
+    flex: 1; /* Ensures equal space distribution */
+    max-width: 300px; /* Prevents them from becoming too large */
+    min-width: 200px; /* Prevents them from becoming too small */
+}
